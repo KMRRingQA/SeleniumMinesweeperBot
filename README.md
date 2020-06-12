@@ -2,5 +2,5 @@
 
 Selenium based Algorithm that solves Minesweeper puzzles.
 
-<img src = "https://i.imgur.com/9SSn86J.gifv">
+<img src = "http://i.imgur.com/A61SaA1.webm">
 
