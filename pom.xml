@@ -42,20 +42,14 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-chrome-driver</artifactId>
+      <artifactId>selenium-support</artifactId>
       <version>3.141.59</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-support</artifactId>
+      <artifactId>selenium-chrome-driver</artifactId>
       <version>3.141.59</version>
       <scope>compile</scope>
     </dependency>
