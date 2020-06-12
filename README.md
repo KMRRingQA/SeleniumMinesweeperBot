@@ -4,7 +4,12 @@ Selenium based Algorithm that solves Minesweeper puzzles.
 currently only based on the basic rules
 1) if number of surrounding unmarked fields is equal to known number of mines, all unmarked fields must be flags
 2) if the number of surrounding known mines (flags) is equal to the known number of mines, all unmarked surrounding fields are safe
-3) guess corners first, then only guess when rule 1)&2) no longer generate progress.
+3) guess corners first, then only guess when rule 1)&2) no longer generate progress (as seen in gif wher stalemate occurs with final 2x2).
+
+to improve calculation time, some other concepts are introduced:
+1) if a fields surrounding is found out (either by flag or safe reveal) it added to a blacklist and not tested again
+2) the program crawls through the puzzle in small chunks unless it gets stuck
+3) if a flag is revealed, surrounding fields are checked for new information. If information was gathered, this process continues.
 
 See it in action below:
 ![](https://i.imgur.com/9SSn86J.gif)
