@@ -12,3 +12,5 @@ See it in action below:
 the decision tree of the algorithm:
 
 <img src = "https://i.imgur.com/bsYbUy8.png">
+
+ultimately most of the algorithm takes place in the rightmost column, as the program "crawls" through the puzzle. When it hits a dead end, it returns to completing a full scan. When this scan returns fruitless, another guess is placed. Not pictured is a "Blacklist" of fields which are not tested for flags or safe reveals, as they have been succesfully tested beforehand (to improve computational speed).
